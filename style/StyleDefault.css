@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #504553;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.active {
+    background-color: #e6a642;
+    color: white;
+}
+
+.topnav {
+
+    background-color: #8d7197;
+}
+
+.topnav a {
+    color: white;
+    padding: 1em 1em;
+    text-decoration: none;
+    display: block;
+}
+.topnav #myLinks
+{
+    display: none;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+@media only screen and (min-width: 760px) {
+ 
+    .topnav #myLinks {
+       
+        display: block;
+        margin: 0 20px 0 10px;
+        
+        float: right;
+    }
+
+    .topnav a {
+        
+        display: inline-flex;
+    }
+
+    .topnav a.icon {
+        background: black;
+        /* Het is niet nodig dat het hamburger icon wordt getoond. display : none */
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+}
+
+
+

@@ -1,0 +1,99 @@
+.sectionovermij {
+    width: 100%;
+    display: flex;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #8d7197;
+    margin: 0 auto;
+    border-width: 0px;
+    background-color: #8d7197;
+}
+.sectionheader
+{
+    background-color: #8d7197;
+    width: 95%;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+
+.title {
+
+    width: 95%;
+    margin: 0 auto;
+    background-color: #8d7197;
+    border-radius: 10px;
+
+
+
+}
+
+h1,
+h2 {
+    color: #e6a642;
+    text-align: center;
+}
+
+
+img {
+
+    height: 100%;
+    width: 50%;
+    max-width: 30%;
+    border-radius: 10px;
+}
+
+.sectionfoto {
+
+    width: 80%;
+
+    text-align: left;
+
+}
+
+.sectiongegevens {
+
+    width: 49%;
+    text-align: right;
+
+
+}
+
+.sectiongegevens p {
+    margin-right: 1%;
+}
+
+.sectionuitleg {
+    background-color: #8d7197;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 760px) {
+
+    img {
+        margin-top: 10px;
+    }
+
+    .sectionfoto {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .sectiongegevens {
+        text-align: left;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    .sectionovermij {
+        display: block;
+
+    }
+
+}
