@@ -1,67 +1,45 @@
-.sectionovermij {
-    width: 100%;
+.sectionheader {
+    background-color: #8d7197;
+    width: 95%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
     display: flex;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #8d7197;
-    margin: 0 auto;
-    border-width: 0px;
-    background-color: #8d7197;
-}
-.sectionheader
-{
-    background-color: #8d7197;
-    width: 95%;
-    border-radius: 10px;
-    margin: 0 auto;
-    
-}
-
-.title {
-
-    width: 95%;
-    margin: 0 auto;
-    background-color: #8d7197;
-    border-radius: 10px;
-
-
+    flex-direction: column;
+    align-items: center;
 
 }
+
+
 
 h1,
 h2 {
     color: #e6a642;
+
     text-align: center;
 }
 
 
 img {
 
-    height: 100%;
-    width: 50%;
-    max-width: 30%;
+
     border-radius: 10px;
-}
-
-.sectionfoto {
-
-    width: 80%;
-
-    text-align: left;
 
 }
 
+.sectionfoto,
 .sectiongegevens {
 
-    width: 49%;
-    text-align: right;
+
+
+    text-align: center;
 
 
 }
 
-.sectiongegevens p {
-    margin-right: 1%;
-}
+
+
+
 
 .sectionuitleg {
     background-color: #8d7197;
@@ -70,30 +48,85 @@ img {
     margin: 0 auto;
 
     margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-@media screen and (max-width: 760px) {
+.sectiongmotivatie,
+.sectiongeschiedenis,
+.sectionhobby {
+    margin-left: 20px;
+    margin-right: 20px;
 
-    img {
-        margin-top: 10px;
+}
+
+.sectionfooter {
+    background-color: #8d7197;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sectionfootergegevens
+{
+    margin-left: 20px;
+    
+    
+}
+.iconlinkdin img,
+.icongithub img  {
+   width: 40px;
+   height: 40px;
+}
+.sectionlinks
+{
+    margin-right: 20px;
+    
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+.icongithub
+{
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 760px) {
+
+    .sectionheader {
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
     }
 
+    .title {
+        flex-basis: 100%;
+    }
+
+
+
+    .sectiongegevens,
     .sectionfoto {
-        text-align: center;
-        margin: 0 auto;
-        width: 100%;
+
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+
     }
 
     .sectiongegevens {
-        text-align: left;
-        margin: 0 auto;
-        width: 100%;
-    }
-
-
-    .sectionovermij {
-        display: block;
-
+        align-self: baseline;
     }
 
 }
