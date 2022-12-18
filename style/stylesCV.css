@@ -1,157 +1,146 @@
-.sectionheader {
+.sectionHeader {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: #8d7197;
+  flex-direction: column;
   width: 95%;
+  background-color: #8d7197;
   margin: 0 auto;
   margin-top: 20px;
+
+  align-items: center;
+
+}
+
+.foto img,
+.sectionHeader {
+
   border-radius: 10px;
-
-
-
 }
 
-h1 {
-  color: #e6a642;
-}
-
-img {
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
-
-.title {
-  width: 100%;
+.sectionGegevens {
   text-align: center;
+}
+
+.sectionErvaring {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8d7197;
+  width: 95%;
+  border-radius: 10px;
+  align-items: stretch;
+
+}
+
+.sectionErvaringBox
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+.sectionTalen,
+.sectionPersoonlijkheid,
+.sectionProgrammeerTalen {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: #504553;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+ align-items: center;
+
+}
+
+.sectionTalen {
+  margin-top: 0px;
+}
+.sectionfooter {
+  background-color: #8d7197;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sectionfootergegevens {
+  margin-left: 20px;
 
 
 }
 
-.sectiongegevens strong p {
+.iconlinkdin img,
+.icongithub img {
+  width: 40px;
+  height: 40px;
+}
+
+.sectionlinks {
+  margin-right: 20px;
+
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+
+}
+
+.icongithub {
   margin-right: 20px;
 }
 
-.sectionervaring
-{
-  width: 95%;
-  background-color: #8d7197;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-h2
-{
-  color: #e6a642;
-  
-}
 
-.sectionervaringbox
-{
-  margin-left: 10px;
-  
-}
-.sectionvaardigheden
-{
- display: flex;
- justify-content: space-between;
- border-style: solid;
- border-radius: 10px;
- margin-left: 10px;
- margin-right: 10px;
- padding-bottom: 10px;
- border-color: #504553;
-}
-.sectiontalen
-{
-  margin-left: 10px;
-}
-.sectionpersoonlijkheid
-{
-  margin-right: 10px;
-}
-h3
-{
-  text-align: center;
-  color: #e6a642;
-}
-.sectionvaardigheden ul
-{
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
-.sectionvaria
-{
-  margin-left: 10px;
-}
+@media screen and (min-width: 760px) {
 
-@media screen and (max-width: 760px) {
-
-  .sectionheader {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  img {
-    margin-left: 0px;
-    margin-bottom: 0px;
-  }
-
-  .sectiongegevens strong p {
-    margin-right: 0px;
-  }
-
-  .sectionvaardigheden
+  .sectionHeader
   {
-    flex-direction: column;
-    border-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
   }
-  h2
+  .sectionGegevens
   {
-    text-align: center;
-    margin-left: 0px;
+    text-align: left;
+    align-self: baseline;
   }
-  .sectiontalen
+  .sectionGegevens,.foto
+  {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .title
+  {
+    flex-basis: 100%;
+  }
+
+  .sectionVaardigheden
   {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0px;
-    border-style: solid;
-    border-color: #504553;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
   }
-  .sectionprogrammeertalen
-  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-style: solid;
-    border-color: #504553;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-  }
-  .sectionpersoonlijkheid
-  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 0px;
-    border-style: solid;
-    border-color: #504553;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-  }
-
-  .sectionvaria
+  .sectionTalen,
+.sectionPersoonlijkheid,
+.sectionProgrammeerTalen
 {
-  margin-left: 0px;
+  flex-grow: 1;
+  align-self: stretch;
+  margin-top: 0;
 }
 
 }
