@@ -1,0 +1,17 @@
+@media screen and (min-width: 760px) {
+
+    .container {
+        margin-bottom: 20px;
+    }
+
+    .container-row-lg {
+        flex-direction: row;
+
+
+    }
+
+    .container-text {
+        margin-left: 20px;
+
+    }
+}

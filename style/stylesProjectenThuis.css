@@ -1,0 +1,22 @@
+.container {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 760px) {
+
+
+    .container-row-lg {
+        flex-direction: row;
+
+    }
+
+    .container-text {
+        margin-left: 20px;
+
+    }
+
+    .img-auto {
+        max-height: 45vw;
+    }
+
+}

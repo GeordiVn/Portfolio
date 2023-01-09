@@ -1,0 +1,74 @@
+.header,
+.sectionProjecten {
+    background-color: #8d7197;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.sectionProjecten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2,
+h3 {
+    flex-basis: 100%;
+}
+
+.sectionProjecten img {
+    max-width: 70%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.sectionProjectenHeader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+
+}
+
+.sectionProjectenHeader h2 {
+    margin-left: 90px;
+}
+
+
+.sectionText {
+    width: 80%;
+    align-items: center;
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 760px) {
+
+    .sectionProjecten {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        width: 95%;
+    }
+
+    .margin {
+        margin-left: 20px;
+    }
+
+    h3 {
+        flex-basis: 0%;
+    }
+
+
+
+}

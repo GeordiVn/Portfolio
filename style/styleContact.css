@@ -1,0 +1,57 @@
+.container-contact {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+
+.field {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.container-button {
+    display: flex;
+
+}
+
+.button {
+    margin-bottom: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 760px) {
+    .container-field {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .flex-grow-1 {
+        flex-grow: 3;
+    }
+
+    .flex-basis-100 {
+        flex-basis: 100%;
+    }
+
+    .margin-end {
+        margin-right: 1.5rem;
+    }
+
+
+    .max-width {
+        max-width: 56%;
+    }
+}

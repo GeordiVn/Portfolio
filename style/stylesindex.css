@@ -10,14 +10,9 @@
 
 }
 
-
-
-
-
-
 img {
 
-
+    margin-top: 20px;
     border-radius: 10px;
 
 }
@@ -55,44 +50,7 @@ img {
 
 }
 
-.sectionfooter {
-    background-color: #8d7197;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.sectionfootergegevens
-{
-    margin-left: 20px;
-    
-    
-}
-.iconlinkdin img,
-.icongithub img  {
-   width: 40px;
-   height: 40px;
-}
-.sectionlinks
-{
-    margin-right: 20px;
-    
-    flex-grow: 2;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    
-    
-}
-.icongithub
-{
-    margin-right: 20px;
-}
+
 
 @media screen and (min-width: 760px) {
 
